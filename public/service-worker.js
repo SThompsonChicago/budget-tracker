@@ -4,7 +4,10 @@ self.addEventListener('install', event => {
             return cache.addAll([
                 './',
                 './index.html',
-                './styles.css'
+                './styles.css',
+                './db.js',
+                '../models/transaction.js',
+                './index.js'
             ]);
         })
     );
